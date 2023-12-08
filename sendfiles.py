@@ -79,6 +79,6 @@ if __name__ == "__main__":
     subject = input('Subject: ')
     message = input("Message: ")
 
-    attachment_paths = ["D:/test.txt", "D:/test.zip","D:/11.png","D:/Tai lieu do an mang may tinh/Tai_lieu_Socket/HDLT_Socket.pdf","C:/Users/LE THANH VINH/Downloads/CNXHKH.docx"]
+    attachment_paths = ["D:/test.txt", "D:/test.zip","D:/11.png"]
 
     send_email("127.0.0.1", 2225, sender, 'your_password', recipient_str, subject, message, attachment_paths)
